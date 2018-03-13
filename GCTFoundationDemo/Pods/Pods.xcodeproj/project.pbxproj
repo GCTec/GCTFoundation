@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB1288250C317DAAB2E6057D1CE500C /* NSObject+GCTKVOCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EEC2938A23CC575AB4958654B3A47B /* NSObject+GCTKVOCategory.m */; };
+		17209C9B29012F320911576C7677153E /* NSObject+GCTRuntimeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7790301A0BDCB0FC06FD87CF2873CFAF /* NSObject+GCTRuntimeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2260E681A343152688CF46AEF32714B1 /* GCTFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9E9A0D57FF72067AB1AFACE843A044 /* GCTFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229C505585CAC4FFFCAD4D3FD29A5D31 /* Pods-GCTFoundationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D20ED191F613C7394C456ACA37878BC /* Pods-GCTFoundationDemo-dummy.m */; };
+		256071C7D26E94376D3286311824EF52 /* NSString+GCTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A28B7331A6EBF6946E6B61D5A289990 /* NSString+GCTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A96C0C304CE7634B8B51AE05992F1BC /* NSNumber+GCTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 139164AE8472DB7901BDAA177F53FF72 /* NSNumber+GCTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E20AB02ED9F56460B2A97B9D5EAC761 /* NSObject+GCTNSNotificationCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C36515D69D0925439D12DA74E67DA859 /* NSObject+GCTNSNotificationCategory.m */; };
+		42F7ACFD65555872DF3B6E26BC687174 /* NSObject+GCTRuntimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC24465B755F345F6F023069FA5E86B /* NSObject+GCTRuntimeCategory.m */; };
+		49E6B20A26641855BB4F9DFA963AF3DF /* NSDictionary+GCTSortedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C60230E504668F3613C61D1AD1097EA9 /* NSDictionary+GCTSortedCategory.m */; };
+		4DB6130195F154E17F6F8A6F0FD032E5 /* NSObject+GCTKVOCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ED3B7F01D404AEE984A8061B196D98 /* NSObject+GCTKVOCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEE23143DAFF79A9D23348B685E5CC2 /* NSNumber+GCTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EDE404FB410166568D7546A6FA7A2 /* NSNumber+GCTCategory.m */; };
+		501EB4DB23DAE6813D152B26D0E75E6A /* NSString+GCTPinyinCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D65AEE65615D248345B70CC2F2AEC133 /* NSString+GCTPinyinCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C1094A9137BFD6D1473DDC02B24FB6C /* GCTFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F44233F7527785CA823BA67642585C56 /* GCTFoundation-dummy.m */; };
+		6026EF92CE30C08B23645D44E8AC5C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		62E3CC3F329BEFBF3E51787D01FC2DE6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		6321DF9F81CA483E9DEBB49E1FC95441 /* GCTFoundationClangConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 72352D3E789E4FF253F58B3181534FC8 /* GCTFoundationClangConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6327FB6FB427E70CAFB92982539F0908 /* NSUserDefaults+GCTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9868863B427B9CB9535A498EE02492FB /* NSUserDefaults+GCTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EE77030C94BB82F2D5728E9B6DBEC1 /* GCTFoundationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B55CBEA05995950796E813234ABB3BEF /* GCTFoundationConstants.m */; };
+		675AFB54D7773825245AB4CFDC1A5B5F /* NSObject+GCTNSNotificationCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AD5061FCD74F6A7695B8F250EC9E29 /* NSObject+GCTNSNotificationCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		797A7ADFE671E3426815E9826BC83B45 /* NSString+GCTPinyinCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0ADC58E29B0AFA6E05579C7C4B4502 /* NSString+GCTPinyinCategory.m */; };
+		83DA9858F3E724035CF17E895225B3A7 /* NSDictionary+GCTSortedCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECC08E1FE73CFD36B8DC38CE9F62DD /* NSDictionary+GCTSortedCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E400AB9CC743D429FA0D13F792EB67 /* NSData+GCTDigestCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D83758872DAA72A1A20B348FF18641F /* NSData+GCTDigestCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876E39F5C52D358565889D32E0C5B9E4 /* Pods-GCTFoundationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D43CA528D6AE8CDBC5F2DD97B88F2747 /* Pods-GCTFoundationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D9897171A8E3DDA7F4D05E09F238BD /* NSDictionary+GCTQueueCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 83982573B45EE75BFB04433826AEBA00 /* NSDictionary+GCTQueueCategory.m */; };
+		9E3050E870FC3740CA258C10D80AE393 /* GCTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57BFD35D2233E9A9EA3A787503516A /* GCTLog.m */; };
+		9EF8049EF06C2F2DAB7F615AA3AA6616 /* NSDictionary+GCTPlistCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B00035B8DAC512689D7BD3861454A9 /* NSDictionary+GCTPlistCategory.m */; };
+		AE159CA2BE82E891A4F8B275323C9F3D /* NSString+GCTDigestCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3C2F8553B4AFDE1E3957C1FF00DCC9 /* NSString+GCTDigestCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0B5F540D00606047071F460FE255F2 /* GCTAutoPurgeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F74E3077A5C6006749398CE95703A9C /* GCTAutoPurgeCache.m */; };
+		B4F0FFAD36B3B521C25D61483DF57E90 /* NSDictionary+GCTPlistCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BB4D75A99D649BCDE4F6BE7FED659E /* NSDictionary+GCTPlistCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79053DC700616263DE1B25C0D716597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		C5930C732AA5619DE968171F4CC55B1D /* NSUserDefaults+GCTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFD08CA80CA4217416F401191EFD151 /* NSUserDefaults+GCTCategory.m */; };
+		C708BDDE0958C39645BD9A9D5317C6AE /* NSArray+GCTQueueCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6FDBD0A9A9C44B467071E0AB978F7F /* NSArray+GCTQueueCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5CF8224E49D7138900E735CF6B2DB6 /* NSArray+GCTQueueCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2884BDBC333CC4F999B7541D364B30 /* NSArray+GCTQueueCategory.m */; };
+		D5C69964244559BD5817FD4B65837FEC /* NSString+GCTDigestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F52A29F8ADF2BA4AFFCA51FF2C57EC78 /* NSString+GCTDigestCategory.m */; };
+		D93A8158E37022CB099DCDF495CE9612 /* NSString+GCTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9B22E2962CD98D46EC293F14446EF /* NSString+GCTCategory.m */; };
+		DE85C8A616D658F8C9CD6C627530B765 /* GCTAutoPurgeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A5B53DADDF7B1CDB33B92C6E6C6817 /* GCTAutoPurgeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A80E6D546C63F39A2C709FBA9F9039 /* GCTFoundationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C8F57E302488AFB6A1F43790854347 /* GCTFoundationConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A685AC077A9CBB42DB74677331BF4E /* GCTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A67C4F6F664526CE2AE380B5F30B9071 /* GCTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63DBF70B666A21A9240F1807CE1DE4C /* NSData+GCTDigestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D5CAD102CDF521FA56804134B45A9E /* NSData+GCTDigestCategory.m */; };
+		E7D06C943FD8F2117B2F8E66F312A291 /* NSDictionary+GCTQueueCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE57CD3DCA70A2EFBE7E2401EBF8052 /* NSDictionary+GCTQueueCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AEFB96D4042AC9B830AE79CDB081EA /* GCTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DACC7FCB36C627A0E726371661E4C6EF /* GCTLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F955DC1AA01F189B4B18CD6BF1593922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		FF15ABA2EC1ACFA8D77811F3293995D5 /* GCTFoundationCGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D696B0F2139EB610D6336B96E4FD394 /* GCTFoundationCGConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA69569116B3D16D7A8B64BD22E43855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF943ABE8140B8D1F9C6E7CB32AC420B;
+			remoteInfo = GCTFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B00035B8DAC512689D7BD3861454A9 /* NSDictionary+GCTPlistCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GCTPlistCategory.m"; sourceTree = "<group>"; };
+		0BF9B22E2962CD98D46EC293F14446EF /* NSString+GCTCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GCTCategory.m"; sourceTree = "<group>"; };
+		0D696B0F2139EB610D6336B96E4FD394 /* GCTFoundationCGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTFoundationCGConstants.h; path = GCTFoundation/Classes/GCTFoundationCGConstants.h; sourceTree = "<group>"; };
+		0D9E9A21A70A9D603945EFDDD011ABDF /* Pods_GCTFoundationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCTFoundationDemo.framework; path = "Pods-GCTFoundationDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119F22F14CF7025D5B82ACD593622157 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		139164AE8472DB7901BDAA177F53FF72 /* NSNumber+GCTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+GCTCategory.h"; sourceTree = "<group>"; };
+		14A5B53DADDF7B1CDB33B92C6E6C6817 /* GCTAutoPurgeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTAutoPurgeCache.h; path = GCTFoundation/Classes/GCTAutoPurgeCache/GCTAutoPurgeCache.h; sourceTree = "<group>"; };
+		15ECC08E1FE73CFD36B8DC38CE9F62DD /* NSDictionary+GCTSortedCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GCTSortedCategory.h"; sourceTree = "<group>"; };
+		1B7DBB476BCFA3DC9C6E68341373C31C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D83758872DAA72A1A20B348FF18641F /* NSData+GCTDigestCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+GCTDigestCategory.h"; sourceTree = "<group>"; };
+		2345F4512E3FCE9EFB9C7AB8116668CD /* GCTFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCTFoundation.modulemap; sourceTree = "<group>"; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		29AD5061FCD74F6A7695B8F250EC9E29 /* NSObject+GCTNSNotificationCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GCTNSNotificationCategory.h"; sourceTree = "<group>"; };
+		3AB921213A2CA86FA0B3BADDB183B41B /* GCTFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTFoundation-prefix.pch"; sourceTree = "<group>"; };
+		3BA8B084D8231A62504EF84C6CA5ABF1 /* Pods-GCTFoundationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCTFoundationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D9E9A0D57FF72067AB1AFACE843A044 /* GCTFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTFoundation-umbrella.h"; sourceTree = "<group>"; };
+		41F35328FC887AFFDF3C0583D54C9676 /* GCTFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCTFoundation.xcconfig; sourceTree = "<group>"; };
+		43ED3B7F01D404AEE984A8061B196D98 /* NSObject+GCTKVOCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GCTKVOCategory.h"; sourceTree = "<group>"; };
+		4A0ADC58E29B0AFA6E05579C7C4B4502 /* NSString+GCTPinyinCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GCTPinyinCategory.m"; sourceTree = "<group>"; };
+		4A28B7331A6EBF6946E6B61D5A289990 /* NSString+GCTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GCTCategory.h"; sourceTree = "<group>"; };
+		4C57BFD35D2233E9A9EA3A787503516A /* GCTLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTLog.m; path = GCTFoundation/Classes/GCTLog/GCTLog.m; sourceTree = "<group>"; };
+		50EEC2938A23CC575AB4958654B3A47B /* NSObject+GCTKVOCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GCTKVOCategory.m"; sourceTree = "<group>"; };
+		5C4EDE404FB410166568D7546A6FA7A2 /* NSNumber+GCTCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+GCTCategory.m"; sourceTree = "<group>"; };
+		5C59F06F9B18B283359FED99CE684B05 /* Pods-GCTFoundationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTFoundationDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5CC2AF468F76D4BD64A4D28A9EFA9C88 /* GCTFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCTFoundation.framework; path = GCTFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C36E7E992738F95B83F3BD1DDCAC00 /* Pods-GCTFoundationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTFoundationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6D20ED191F613C7394C456ACA37878BC /* Pods-GCTFoundationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCTFoundationDemo-dummy.m"; sourceTree = "<group>"; };
+		72352D3E789E4FF253F58B3181534FC8 /* GCTFoundationClangConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTFoundationClangConstants.h; path = GCTFoundation/Classes/GCTFoundationClangConstants.h; sourceTree = "<group>"; };
+		74DFCAE64C837D6FC9A0EDC5B08E12C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7790301A0BDCB0FC06FD87CF2873CFAF /* NSObject+GCTRuntimeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GCTRuntimeCategory.h"; sourceTree = "<group>"; };
+		7EE57CD3DCA70A2EFBE7E2401EBF8052 /* NSDictionary+GCTQueueCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GCTQueueCategory.h"; sourceTree = "<group>"; };
+		7F74E3077A5C6006749398CE95703A9C /* GCTAutoPurgeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTAutoPurgeCache.m; path = GCTFoundation/Classes/GCTAutoPurgeCache/GCTAutoPurgeCache.m; sourceTree = "<group>"; };
+		83982573B45EE75BFB04433826AEBA00 /* NSDictionary+GCTQueueCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GCTQueueCategory.m"; sourceTree = "<group>"; };
+		8D7AABB07BD8F100276D558697FB5121 /* GCTFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCTFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91D5CAD102CDF521FA56804134B45A9E /* NSData+GCTDigestCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+GCTDigestCategory.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9868863B427B9CB9535A498EE02492FB /* NSUserDefaults+GCTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+GCTCategory.h"; sourceTree = "<group>"; };
+		9C6720C60C84750C9E022998D5738EC8 /* Pods-GCTFoundationDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTFoundationDemo-resources.sh"; sourceTree = "<group>"; };
+		9F3C2F8553B4AFDE1E3957C1FF00DCC9 /* NSString+GCTDigestCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GCTDigestCategory.h"; sourceTree = "<group>"; };
+		A67C4F6F664526CE2AE380B5F30B9071 /* GCTFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTFoundation.h; path = GCTFoundation/Classes/GCTFoundation.h; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD2884BDBC333CC4F999B7541D364B30 /* NSArray+GCTQueueCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GCTQueueCategory.m"; sourceTree = "<group>"; };
+		B2C8F57E302488AFB6A1F43790854347 /* GCTFoundationConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTFoundationConstants.h; path = GCTFoundation/Classes/GCTFoundationConstants.h; sourceTree = "<group>"; };
+		B2F17AF37CA5054FFDB63A53DE2E29E2 /* Pods-GCTFoundationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCTFoundationDemo.modulemap"; sourceTree = "<group>"; };
+		B55CBEA05995950796E813234ABB3BEF /* GCTFoundationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTFoundationConstants.m; path = GCTFoundation/Classes/GCTFoundationConstants.m; sourceTree = "<group>"; };
+		BAFD08CA80CA4217416F401191EFD151 /* NSUserDefaults+GCTCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+GCTCategory.m"; sourceTree = "<group>"; };
+		C141CD2F138F252FBB1DF451DFBC2F35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C36515D69D0925439D12DA74E67DA859 /* NSObject+GCTNSNotificationCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GCTNSNotificationCategory.m"; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C60230E504668F3613C61D1AD1097EA9 /* NSDictionary+GCTSortedCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GCTSortedCategory.m"; sourceTree = "<group>"; };
+		CEC24465B755F345F6F023069FA5E86B /* NSObject+GCTRuntimeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GCTRuntimeCategory.m"; sourceTree = "<group>"; };
+		D43CA528D6AE8CDBC5F2DD97B88F2747 /* Pods-GCTFoundationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCTFoundationDemo-umbrella.h"; sourceTree = "<group>"; };
+		D65AEE65615D248345B70CC2F2AEC133 /* NSString+GCTPinyinCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GCTPinyinCategory.h"; sourceTree = "<group>"; };
+		DACC7FCB36C627A0E726371661E4C6EF /* GCTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTLog.h; path = GCTFoundation/Classes/GCTLog/GCTLog.h; sourceTree = "<group>"; };
+		DF9F5174B804F666A462490FA7C93CC1 /* Pods-GCTFoundationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTFoundationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3BB4D75A99D649BCDE4F6BE7FED659E /* NSDictionary+GCTPlistCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GCTPlistCategory.h"; sourceTree = "<group>"; };
+		EA6FDBD0A9A9C44B467071E0AB978F7F /* NSArray+GCTQueueCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+GCTQueueCategory.h"; sourceTree = "<group>"; };
+		F44233F7527785CA823BA67642585C56 /* GCTFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCTFoundation-dummy.m"; sourceTree = "<group>"; };
+		F52A29F8ADF2BA4AFFCA51FF2C57EC78 /* NSString+GCTDigestCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GCTDigestCategory.m"; sourceTree = "<group>"; };
+		FE41CF31D83BD1DEDDD810B789BFE032 /* Pods-GCTFoundationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCTFoundationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B18002E6297202AF80F44F0F64DC310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E3CC3F329BEFBF3E51787D01FC2DE6 /* CoreText.framework in Frameworks */,
+				6026EF92CE30C08B23645D44E8AC5C70 /* Foundation.framework in Frameworks */,
+				B79053DC700616263DE1B25C0D716597 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE93FFA54F992C025872E5EF96995010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F955DC1AA01F189B4B18CD6BF1593922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108BFC7250A9E3624248DB87329755C2 /* CGTLog */ = {
+			isa = PBXGroup;
+			children = (
+				DACC7FCB36C627A0E726371661E4C6EF /* GCTLog.h */,
+				4C57BFD35D2233E9A9EA3A787503516A /* GCTLog.m */,
+			);
+			name = CGTLog;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D4E23969C38BC02CBB68E39CCF3C94 /* GCTAutoPurgeCache */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B53DADDF7B1CDB33B92C6E6C6817 /* GCTAutoPurgeCache.h */,
+				7F74E3077A5C6006749398CE95703A9C /* GCTAutoPurgeCache.m */,
+			);
+			name = GCTAutoPurgeCache;
+			sourceTree = "<group>";
+		};
+		29F61DEC9B920691E6D2795A70DFC789 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2345F4512E3FCE9EFB9C7AB8116668CD /* GCTFoundation.modulemap */,
+				41F35328FC887AFFDF3C0583D54C9676 /* GCTFoundation.xcconfig */,
+				F44233F7527785CA823BA67642585C56 /* GCTFoundation-dummy.m */,
+				3AB921213A2CA86FA0B3BADDB183B41B /* GCTFoundation-prefix.pch */,
+				3D9E9A0D57FF72067AB1AFACE843A044 /* GCTFoundation-umbrella.h */,
+				1B7DBB476BCFA3DC9C6E68341373C31C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "GCTFoundationDemo/Pods/Target Support Files/GCTFoundation";
+			sourceTree = "<group>";
+		};
+		3839E3B2E83866096515CB1E3D166A45 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FDBD0A9A9C44B467071E0AB978F7F /* NSArray+GCTQueueCategory.h */,
+				AD2884BDBC333CC4F999B7541D364B30 /* NSArray+GCTQueueCategory.m */,
+			);
+			name = NSArray;
+			path = GCTFoundation/Classes/GCTCategory/NSArray;
+			sourceTree = "<group>";
+		};
+		3C086C1D882374F13557228EA156F22E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A97D70E875E24FCB354967A39A6943B /* GCTFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A97D70E875E24FCB354967A39A6943B /* GCTFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				A67C4F6F664526CE2AE380B5F30B9071 /* GCTFoundation.h */,
+				0D696B0F2139EB610D6336B96E4FD394 /* GCTFoundationCGConstants.h */,
+				72352D3E789E4FF253F58B3181534FC8 /* GCTFoundationClangConstants.h */,
+				B2C8F57E302488AFB6A1F43790854347 /* GCTFoundationConstants.h */,
+				B55CBEA05995950796E813234ABB3BEF /* GCTFoundationConstants.m */,
+				108BFC7250A9E3624248DB87329755C2 /* CGTLog */,
+				23D4E23969C38BC02CBB68E39CCF3C94 /* GCTAutoPurgeCache */,
+				E267A30EE5EB44CE876F22FCC21A3FBF /* GCTCategory */,
+				70028D50A938B9A234CF35AE71565CAE /* Pod */,
+				29F61DEC9B920691E6D2795A70DFC789 /* Support Files */,
+			);
+			name = GCTFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		664DC779E66E1E36976BDBF8587A8BB1 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				1D83758872DAA72A1A20B348FF18641F /* NSData+GCTDigestCategory.h */,
+				91D5CAD102CDF521FA56804134B45A9E /* NSData+GCTDigestCategory.m */,
+			);
+			name = NSData;
+			path = GCTFoundation/Classes/GCTCategory/NSData;
+			sourceTree = "<group>";
+		};
+		6E9BB162FC4C5C7694359795DEFCF180 /* Pods-GCTFoundationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74DFCAE64C837D6FC9A0EDC5B08E12C1 /* Info.plist */,
+				B2F17AF37CA5054FFDB63A53DE2E29E2 /* Pods-GCTFoundationDemo.modulemap */,
+				FE41CF31D83BD1DEDDD810B789BFE032 /* Pods-GCTFoundationDemo-acknowledgements.markdown */,
+				3BA8B084D8231A62504EF84C6CA5ABF1 /* Pods-GCTFoundationDemo-acknowledgements.plist */,
+				6D20ED191F613C7394C456ACA37878BC /* Pods-GCTFoundationDemo-dummy.m */,
+				5C59F06F9B18B283359FED99CE684B05 /* Pods-GCTFoundationDemo-frameworks.sh */,
+				9C6720C60C84750C9E022998D5738EC8 /* Pods-GCTFoundationDemo-resources.sh */,
+				D43CA528D6AE8CDBC5F2DD97B88F2747 /* Pods-GCTFoundationDemo-umbrella.h */,
+				60C36E7E992738F95B83F3BD1DDCAC00 /* Pods-GCTFoundationDemo.debug.xcconfig */,
+				DF9F5174B804F666A462490FA7C93CC1 /* Pods-GCTFoundationDemo.release.xcconfig */,
+			);
+			name = "Pods-GCTFoundationDemo";
+			path = "Target Support Files/Pods-GCTFoundationDemo";
+			sourceTree = "<group>";
+		};
+		70028D50A938B9A234CF35AE71565CAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D7AABB07BD8F100276D558697FB5121 /* GCTFoundation.podspec */,
+				119F22F14CF7025D5B82ACD593622157 /* LICENSE */,
+				C141CD2F138F252FBB1DF451DFBC2F35 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B9395C60714D547ED74E4AEFFBD5B1B /* NSUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				9868863B427B9CB9535A498EE02492FB /* NSUserDefaults+GCTCategory.h */,
+				BAFD08CA80CA4217416F401191EFD151 /* NSUserDefaults+GCTCategory.m */,
+			);
+			name = NSUserDefault;
+			path = GCTFoundation/Classes/GCTCategory/NSUserDefault;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3C086C1D882374F13557228EA156F22E /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				E7E149660DABEF7571AF5C1B72A3A476 /* Products */,
+				D4BD015E19C106AB8028216B0D39CEC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F12D471148601268A520E07AD2D732D /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB4D75A99D649BCDE4F6BE7FED659E /* NSDictionary+GCTPlistCategory.h */,
+				06B00035B8DAC512689D7BD3861454A9 /* NSDictionary+GCTPlistCategory.m */,
+				7EE57CD3DCA70A2EFBE7E2401EBF8052 /* NSDictionary+GCTQueueCategory.h */,
+				83982573B45EE75BFB04433826AEBA00 /* NSDictionary+GCTQueueCategory.m */,
+				15ECC08E1FE73CFD36B8DC38CE9F62DD /* NSDictionary+GCTSortedCategory.h */,
+				C60230E504668F3613C61D1AD1097EA9 /* NSDictionary+GCTSortedCategory.m */,
+			);
+			name = NSDictionary;
+			path = GCTFoundation/Classes/GCTCategory/NSDictionary;
+			sourceTree = "<group>";
+		};
+		98F64F3660E4155D8F77A028E1FF7E7F /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				139164AE8472DB7901BDAA177F53FF72 /* NSNumber+GCTCategory.h */,
+				5C4EDE404FB410166568D7546A6FA7A2 /* NSNumber+GCTCategory.m */,
+			);
+			name = NSNumber;
+			path = GCTFoundation/Classes/GCTCategory/NSNumber;
+			sourceTree = "<group>";
+		};
+		AA7742E0DBE3C6692755C0B18A6E2D6D /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4A28B7331A6EBF6946E6B61D5A289990 /* NSString+GCTCategory.h */,
+				0BF9B22E2962CD98D46EC293F14446EF /* NSString+GCTCategory.m */,
+				9F3C2F8553B4AFDE1E3957C1FF00DCC9 /* NSString+GCTDigestCategory.h */,
+				F52A29F8ADF2BA4AFFCA51FF2C57EC78 /* NSString+GCTDigestCategory.m */,
+				D65AEE65615D248345B70CC2F2AEC133 /* NSString+GCTPinyinCategory.h */,
+				4A0ADC58E29B0AFA6E05579C7C4B4502 /* NSString+GCTPinyinCategory.m */,
+			);
+			name = NSString;
+			path = GCTFoundation/Classes/GCTCategory/NSString;
+			sourceTree = "<group>";
+		};
+		D4BD015E19C106AB8028216B0D39CEC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BB162FC4C5C7694359795DEFCF180 /* Pods-GCTFoundationDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0F3BA12F4C7D5527D0BEE9879FB6096 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				43ED3B7F01D404AEE984A8061B196D98 /* NSObject+GCTKVOCategory.h */,
+				50EEC2938A23CC575AB4958654B3A47B /* NSObject+GCTKVOCategory.m */,
+				29AD5061FCD74F6A7695B8F250EC9E29 /* NSObject+GCTNSNotificationCategory.h */,
+				C36515D69D0925439D12DA74E67DA859 /* NSObject+GCTNSNotificationCategory.m */,
+				7790301A0BDCB0FC06FD87CF2873CFAF /* NSObject+GCTRuntimeCategory.h */,
+				CEC24465B755F345F6F023069FA5E86B /* NSObject+GCTRuntimeCategory.m */,
+			);
+			name = NSObject;
+			path = GCTFoundation/Classes/GCTCategory/NSObject;
+			sourceTree = "<group>";
+		};
+		E267A30EE5EB44CE876F22FCC21A3FBF /* GCTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3839E3B2E83866096515CB1E3D166A45 /* NSArray */,
+				664DC779E66E1E36976BDBF8587A8BB1 /* NSData */,
+				7F12D471148601268A520E07AD2D732D /* NSDictionary */,
+				98F64F3660E4155D8F77A028E1FF7E7F /* NSNumber */,
+				E0F3BA12F4C7D5527D0BEE9879FB6096 /* NSObject */,
+				AA7742E0DBE3C6692755C0B18A6E2D6D /* NSString */,
+				7B9395C60714D547ED74E4AEFFBD5B1B /* NSUserDefault */,
+			);
+			name = GCTCategory;
+			sourceTree = "<group>";
+		};
+		E7E149660DABEF7571AF5C1B72A3A476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2AF468F76D4BD64A4D28A9EFA9C88 /* GCTFoundation.framework */,
+				0D9E9A21A70A9D603945EFDDD011ABDF /* Pods_GCTFoundationDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E82D5BBF725C37E51D4D412F93774F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E39F5C52D358565889D32E0C5B9E4 /* Pods-GCTFoundationDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E229D41FD3F81A2FCD8D57CD9BA511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE85C8A616D658F8C9CD6C627530B765 /* GCTAutoPurgeCache.h in Headers */,
+				2260E681A343152688CF46AEF32714B1 /* GCTFoundation-umbrella.h in Headers */,
+				E5A685AC077A9CBB42DB74677331BF4E /* GCTFoundation.h in Headers */,
+				FF15ABA2EC1ACFA8D77811F3293995D5 /* GCTFoundationCGConstants.h in Headers */,
+				6321DF9F81CA483E9DEBB49E1FC95441 /* GCTFoundationClangConstants.h in Headers */,
+				E3A80E6D546C63F39A2C709FBA9F9039 /* GCTFoundationConstants.h in Headers */,
+				F4AEFB96D4042AC9B830AE79CDB081EA /* GCTLog.h in Headers */,
+				C708BDDE0958C39645BD9A9D5317C6AE /* NSArray+GCTQueueCategory.h in Headers */,
+				83E400AB9CC743D429FA0D13F792EB67 /* NSData+GCTDigestCategory.h in Headers */,
+				B4F0FFAD36B3B521C25D61483DF57E90 /* NSDictionary+GCTPlistCategory.h in Headers */,
+				E7D06C943FD8F2117B2F8E66F312A291 /* NSDictionary+GCTQueueCategory.h in Headers */,
+				83DA9858F3E724035CF17E895225B3A7 /* NSDictionary+GCTSortedCategory.h in Headers */,
+				2A96C0C304CE7634B8B51AE05992F1BC /* NSNumber+GCTCategory.h in Headers */,
+				4DB6130195F154E17F6F8A6F0FD032E5 /* NSObject+GCTKVOCategory.h in Headers */,
+				675AFB54D7773825245AB4CFDC1A5B5F /* NSObject+GCTNSNotificationCategory.h in Headers */,
+				17209C9B29012F320911576C7677153E /* NSObject+GCTRuntimeCategory.h in Headers */,
+				256071C7D26E94376D3286311824EF52 /* NSString+GCTCategory.h in Headers */,
+				AE159CA2BE82E891A4F8B275323C9F3D /* NSString+GCTDigestCategory.h in Headers */,
+				501EB4DB23DAE6813D152B26D0E75E6A /* NSString+GCTPinyinCategory.h in Headers */,
+				6327FB6FB427E70CAFB92982539F0908 /* NSUserDefaults+GCTCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF943ABE8140B8D1F9C6E7CB32AC420B /* GCTFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08156D0F2C3C6BA5051E0DEAFD564C77 /* Build configuration list for PBXNativeTarget "GCTFoundation" */;
+			buildPhases = (
+				AFEBE8E5E92885F3873E8B48C88BDFF0 /* Sources */,
+				5B18002E6297202AF80F44F0F64DC310 /* Frameworks */,
+				D2E229D41FD3F81A2FCD8D57CD9BA511 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCTFoundation;
+			productName = GCTFoundation;
+			productReference = 5CC2AF468F76D4BD64A4D28A9EFA9C88 /* GCTFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E53E213933B7B7C71541BE4CA71CE02F /* Pods-GCTFoundationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209254400AA1CB0B2DF98B41FE8D6E05 /* Build configuration list for PBXNativeTarget "Pods-GCTFoundationDemo" */;
+			buildPhases = (
+				1121C3A4E3E6412EE49639D4CF89564A /* Sources */,
+				CE93FFA54F992C025872E5EF96995010 /* Frameworks */,
+				0E82D5BBF725C37E51D4D412F93774F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8FA90AEB904E50FCA176088EB996CEB /* PBXTargetDependency */,
+			);
+			name = "Pods-GCTFoundationDemo";
+			productName = "Pods-GCTFoundationDemo";
+			productReference = 0D9E9A21A70A9D603945EFDDD011ABDF /* Pods_GCTFoundationDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E7E149660DABEF7571AF5C1B72A3A476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF943ABE8140B8D1F9C6E7CB32AC420B /* GCTFoundation */,
+				E53E213933B7B7C71541BE4CA71CE02F /* Pods-GCTFoundationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1121C3A4E3E6412EE49639D4CF89564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229C505585CAC4FFFCAD4D3FD29A5D31 /* Pods-GCTFoundationDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEBE8E5E92885F3873E8B48C88BDFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0B5F540D00606047071F460FE255F2 /* GCTAutoPurgeCache.m in Sources */,
+				5C1094A9137BFD6D1473DDC02B24FB6C /* GCTFoundation-dummy.m in Sources */,
+				66EE77030C94BB82F2D5728E9B6DBEC1 /* GCTFoundationConstants.m in Sources */,
+				9E3050E870FC3740CA258C10D80AE393 /* GCTLog.m in Sources */,
+				CE5CF8224E49D7138900E735CF6B2DB6 /* NSArray+GCTQueueCategory.m in Sources */,
+				E63DBF70B666A21A9240F1807CE1DE4C /* NSData+GCTDigestCategory.m in Sources */,
+				9EF8049EF06C2F2DAB7F615AA3AA6616 /* NSDictionary+GCTPlistCategory.m in Sources */,
+				91D9897171A8E3DDA7F4D05E09F238BD /* NSDictionary+GCTQueueCategory.m in Sources */,
+				49E6B20A26641855BB4F9DFA963AF3DF /* NSDictionary+GCTSortedCategory.m in Sources */,
+				4DEE23143DAFF79A9D23348B685E5CC2 /* NSNumber+GCTCategory.m in Sources */,
+				0CB1288250C317DAAB2E6057D1CE500C /* NSObject+GCTKVOCategory.m in Sources */,
+				3E20AB02ED9F56460B2A97B9D5EAC761 /* NSObject+GCTNSNotificationCategory.m in Sources */,
+				42F7ACFD65555872DF3B6E26BC687174 /* NSObject+GCTRuntimeCategory.m in Sources */,
+				D93A8158E37022CB099DCDF495CE9612 /* NSString+GCTCategory.m in Sources */,
+				D5C69964244559BD5817FD4B65837FEC /* NSString+GCTDigestCategory.m in Sources */,
+				797A7ADFE671E3426815E9826BC83B45 /* NSString+GCTPinyinCategory.m in Sources */,
+				C5930C732AA5619DE968171F4CC55B1D /* NSUserDefaults+GCTCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8FA90AEB904E50FCA176088EB996CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCTFoundation;
+			target = BF943ABE8140B8D1F9C6E7CB32AC420B /* GCTFoundation */;
+			targetProxy = FA69569116B3D16D7A8B64BD22E43855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50767C03D812904BC4C2B54A2AE2549F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F35328FC887AFFDF3C0583D54C9676 /* GCTFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTFoundation/GCTFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCTFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCTFoundation/GCTFoundation.modulemap";
+				PRODUCT_NAME = GCTFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CB6FA9326FC8A8DA70AD58B64190206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C36E7E992738F95B83F3BD1DDCAC00 /* Pods-GCTFoundationDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GCTFoundationDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCTFoundationDemo/Pods-GCTFoundationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GCTFoundationDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8B33E7B65529DC307A9AD9BE915752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F35328FC887AFFDF3C0583D54C9676 /* GCTFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTFoundation/GCTFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCTFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCTFoundation/GCTFoundation.modulemap";
+				PRODUCT_NAME = GCTFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9BE7B2B45809E239E94EEE3FB900F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9F5174B804F666A462490FA7C93CC1 /* Pods-GCTFoundationDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GCTFoundationDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCTFoundationDemo/Pods-GCTFoundationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GCTFoundationDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08156D0F2C3C6BA5051E0DEAFD564C77 /* Build configuration list for PBXNativeTarget "GCTFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50767C03D812904BC4C2B54A2AE2549F /* Debug */,
+				F8B33E7B65529DC307A9AD9BE915752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209254400AA1CB0B2DF98B41FE8D6E05 /* Build configuration list for PBXNativeTarget "Pods-GCTFoundationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB6FA9326FC8A8DA70AD58B64190206 /* Debug */,
+				F9BE7B2B45809E239E94EEE3FB900F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

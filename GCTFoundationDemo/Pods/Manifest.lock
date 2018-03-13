@@ -1,0 +1,22 @@
+PODS:
+  - GCTFoundation (0.0.1):
+    - GCTFoundation/CGTLog (= 0.0.1)
+    - GCTFoundation/GCTAutoPurgeCache (= 0.0.1)
+    - GCTFoundation/GCTCategory (= 0.0.1)
+  - GCTFoundation/CGTLog (0.0.1)
+  - GCTFoundation/GCTAutoPurgeCache (0.0.1)
+  - GCTFoundation/GCTCategory (0.0.1)
+
+DEPENDENCIES:
+  - GCTFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  GCTFoundation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GCTFoundation: 5c6054415bf1b57974e48bd5adff611a04efc5c5
+
+PODFILE CHECKSUM: b9a81fc7ce9b1f186454de82d03bd5979fe46c34
+
+COCOAPODS: 1.4.0

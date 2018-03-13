@@ -1,0 +1,6 @@
+framework module GCTFoundation {
+  umbrella header "GCTFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "GCTFoundation",
+  "version": "0.0.1",
+  "summary": "Foundation库",
+  "description": "Foundation库，包含：\n      GCTCategory：Foundation NS系列的方法扩展Category；\nGCTAutoPurgeCache：NSCache 的子类，在有系统警告时，会自动释放 Cache；\n           CGTLog：Log 系列。用于打印台打印。包含等级过滤操作，自定义打印样式等。",
+  "homepage": "https://github.com/GCTec/GCTFoundation",
+  "license": "MIT",
+  "authors": {
+    "Later": "lshxin89@126.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/GCTec/GCTFoundation.git",
+    "tag": "0.0.1"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreText"
+  ],
+  "requires_arc": true,
+  "public_header_files": "GCTFoundation/Classes/*.h",
+  "source_files": "GCTFoundation/Classes/*.{h,m}",
+  "subspecs": [
+    {
+      "name": "GCTCategory",
+      "public_header_files": "GCTFoundation/Classes/GCTCategory/**/*.h",
+      "source_files": "GCTFoundation/Classes/GCTCategory/**/*.{h,m}"
+    },
+    {
+      "name": "GCTAutoPurgeCache",
+      "public_header_files": "GCTFoundation/Classes/GCTAutoPurgeCache/*.h",
+      "source_files": "GCTFoundation/Classes/GCTAutoPurgeCache/*.{h,m}"
+    },
+    {
+      "name": "CGTLog",
+      "public_header_files": "GCTFoundation/Classes/GCTLog/*.h",
+      "source_files": "GCTFoundation/Classes/GCTLog/*.{h,m}"
+    }
+  ]
+}
